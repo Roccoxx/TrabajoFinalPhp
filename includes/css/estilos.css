@@ -1,0 +1,315 @@
+@CHARSET "ISO-8859-1";
+
+*
+{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{
+	height: 100%;
+	min-height: 100% !important;
+}
+
+body
+{
+	font-size: 1em;
+	position: relative;
+}
+
+hr
+{
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-top: 1px solid #333333;
+}
+
+.wraper
+{
+	min-height: 100%;
+	position: relative;
+	margin-bottom: -60px;
+}
+
+.push
+{
+	height: 60px;
+}
+
+table
+{
+	width: 90%;
+	margin: 1em auto;
+	border-radius: 3px;
+	font-size: 0.80em;
+	border-spacing: 0px;
+	border: 1px solid;
+}
+
+table th
+{
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 0.1em 0.2em;
+	border-right: 1px solid #FFFFFF;
+}
+
+table th:last-child
+{
+	border: none;
+}
+
+table td
+{
+	padding: 0.2em 0.8em;
+	border-right: 1px solid;
+}
+
+table td:last-child
+{
+	border: none;
+}
+
+table tr:nth-child(2n+1)
+{
+	background-color: #E2E2E2;
+}
+
+table tr:hover
+{
+	background-color: #A2A2A2;
+}
+
+header
+{
+	padding: 2.5em;
+	font-size: 0.85em;
+}
+
+footer
+{
+	padding: 1.8em 0;
+	color: #FFFFFF;
+	background-color: #333333;
+	font-size: 0.75em;
+	position: relative;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+footer a
+{
+	color: #FFFFFF;
+}
+
+fieldset
+{
+	width: 80%;
+	max-width: 990px;
+	border: 1px solid #333333;
+	margin: 10px auto;
+	position: relative;
+}
+
+fieldset legend
+{
+	margin-left: 1em;
+	padding: 1em 0.75em;
+	font-size: 1.7em;
+}
+
+fieldset ul
+{
+	margin: 0;
+	padding: 3px;
+	position: relative;
+	overflow: hidden;
+}
+
+fieldset ul li
+{
+	width: 48%;
+	float: left;
+	padding: 0;
+	list-style: none;
+	margin: 0 0 2em;
+	position: relative;
+}
+
+fieldset ul li:nth-child(2n+1)
+{
+	text-align: right;
+	padding-top: 0.6em;
+	padding-right: 1em;
+	font-size: 0.85em;
+}
+
+input[type=text], input[type=password], input[type=radio], select
+{
+	border-radius: 5px;
+	padding: 0.50em 0.75em;
+	border: 1px solid #999999;
+	outline: none;
+	transition: all 0.25s ease-in-out;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=radio]:hover, select:hover
+{
+	box-shadow: 0 0 3px 1px #7cc7fe;
+}
+
+input[type=text], input[type=password], select
+{
+	min-width: 225px;
+}
+
+input:focus, select:focus
+{
+	box-shadow: 0 0 3px 1px #0090fa;
+}
+
+option
+{
+	padding: 0.05em 0.75em;
+	min-width: 185px;
+}
+
+label.radio
+{
+	display: block;
+	padding: 0.2em 0;
+	position: relative;
+}
+
+div.buttons
+{
+	padding: 0.2em 1em 0.7em;
+	position: relative;
+	overflow: hidden;
+}
+
+div.buttons input
+{
+	padding: 0.5em 1.5em;
+	border: 1px solid #333333;
+	background-color: #C1C1C1;
+	border-radius: 3px;
+	outline: none;
+	transition: all 0.25s ease-in-out;
+}
+div.buttons input:hover
+{
+	background-color: #555555;
+	color: #FFFFFF;
+	cursor: pointer;
+	box-shadow: 0 0 3px 2px #7cc7fe;
+}
+
+div.buttons input:first-child
+{
+	float: right;
+}
+
+div.ultimo_paso
+{
+	position: relative;
+}
+
+h2
+{
+	color: #999999;
+	width: 80%;
+	max-width: 990px;
+	margin: 40px auto 0;
+	position: relative;
+	text-align: center; 
+}
+
+div.ultimo_paso ul li:nth-child(2n+1)
+{
+	font-weight: bold;
+}
+
+div.ultimo_paso ul li:nth-child(2n)
+{
+	text-align: left;
+	padding-top: 0.6em;
+	padding-right: 1em;
+	font-size: 0.85em;
+}
+
+div.mensaje
+{
+	margin: 10px auto;
+	width: 90%;
+	max-width: 600px;
+	padding: 1em;
+	border-radius: 6px;
+	border: 1px solid #c3c3c3;
+}
+
+div.mensaje h3
+{
+
+}
+
+div.mensaje ul
+{
+
+}
+
+div.mensaje ul li
+{
+	width: auto;
+	text-align: left;
+	clear: both;
+	font-size: 0.85em;
+}
+
+ul.menu
+{
+	background-color: #333333;
+	color: #FFFFFF;
+	position: relative;
+	overflow: hidden;
+	font-size: 0.89em;
+}
+
+ul.menu li
+{
+	padding: 0.6em 1em;
+	list-style: none;
+	float: right;
+	margin: auto;
+	width: auto;
+}
+
+ul.menu li a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+ul.menu li a:hover
+{
+	text-decoration: underline;
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+.text-left
+{
+	text-align: left;
+}
+
+.text-right
+{
+	text-align: right;
+}
